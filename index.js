@@ -47,5 +47,5 @@ app.use('/logs',LogsRouter)
 
 //estableciendo el puerto con el que trabajara nodejs
 app.listen(3002,()=>{
-    console.log('Servidor iniciado en el http://localhost:3002 ')
+    console.log('Servidor iniciado en el puerto: 3002')
 })
