@@ -1,0 +1,75 @@
+.img-logog{
+    width: 320px;
+    height: 110px;
+    margin-left: 20px;
+    padding-top: 20px;
+}
+
+.img-logoe{
+    width: 300px;
+    height: 80px;
+    margin-left: 300px;
+    padding-top: 20px;
+}
+
+.img-barra{
+    width: 100%;
+    height: 20px;
+}
+
+.img-firma{
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+
+.img-qrcode{
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+}
+
+.p-right{
+    text-align: right;
+    margin-right: 50px;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.p-lineah{
+    font-size: 18px;
+    margin-left: 80px;
+}
+
+.p-content{
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.tabla{    
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+}
+
+.tabla thead{
+    background-color: rgb(161, 202, 238);
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.tabla th{
+    padding: 10px;
+}
+
+.tabla td{
+    padding: 10px;
+}
+

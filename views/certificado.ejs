@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://localhost:3002/recursos/css/style.css"/>
+</head>
+<body>
+    <img src='<%=logog%>' class="img-logog" />
+    <img src='<%=logoe%>' class="img-logoe"/>
+    <img src='<%=barra%>' class="img-barra"/>
+    <p class="p-right"> <%=fecha%> </p>
+    <p class="p-lineah">Estimado Contribuyente</p>
+    <p class="p-content">Por medio de la presente la Dirección Financiera a través de la Unidad de Tesorería del GAD Provincial de
+        Santo Domingo de los Tsáchilas, <b>CERTIFICA</b> que usted ha cumplido con el pago de conformidad a lo
+        establecido en <b>LA ORDENANZA PARA ESTABLECER UNA CONTRIBUCIÓN ESPECIAL DE
+        MEJORAS PARA MANTENIMIENTO VIA RURAL DE LA PROVINCIA DE SANTO DOMINGO DE
+        LOS TSÁCHILAS.</b>
+    </p>
+    <table class="tabla">
+        <thead>
+            <tr>
+                <th>PLACA</th>
+                <th>FECHA</th>
+                <th>HORA</th>
+                <th>VALOR</th>
+            </tr>
+        </thead>
+        <tbody>
+            <% datos.forEach((val)=>{%>
+                <tr>
+                    <td><%= val.placa %></td>
+                    <td><%= val.fecha %></td>
+                    <td><%= val.hora %></td>
+                    <td><%= val.valor %></td>
+                </tr>
+            <%})%>
+        </tbody>
+    </table>
+    <p class="p-lineah">Sin otro particular más que informar me suscribo.</p>
+    <img src='<%=firma%>' class="img-firma" />
+    <p class="p-lineah">
+        Ing. Ángel Enrique Garofalo Jiménez.<br/>
+        Tesorero General GAD Provincial<br/>
+        Santo Domingo de los Tsáchilas
+    </p>
+    <img src='<%=qrcod%>' class="img-qrcode" />
+</body>
+</html>
