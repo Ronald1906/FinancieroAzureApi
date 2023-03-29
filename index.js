@@ -45,6 +45,7 @@ app.use('/user',UserRouter)
 const LogsRouter = require('./Controller/LogsController')
 app.use('/logs',LogsRouter)
 
+
 //estableciendo el puerto con el que trabajara nodejs
 app.listen(3002,()=>{
     console.log('Servidor iniciado en el puerto: 3002')
